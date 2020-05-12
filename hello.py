@@ -28,3 +28,21 @@ print(type(variavel))
 variavel = True #bool
 print(type(variavel))
 
+#Operadores Relacionais
+# == igual
+# != diferente
+# > maior
+# < menor
+# >= maior ou igual
+# <= menor ou igual
+
+#Operadores Lógicos
+# and Duas condições sejam verdadeiras
+# or Pelo menos uma condição seja verdadeira
+# not Inverte o valor
+
+#Estruturas de Condição
+# IF
+if 10 > 5:
+	print("10 é maior do que 5!")
+# WHILE
