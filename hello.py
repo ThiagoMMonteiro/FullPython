@@ -42,9 +42,11 @@ print(type(variavel))
 # not Inverte o valor
 
 #Estruturas de Condição
-# IF - ELSE
+# IF - ELSE - ELIF
 if 10 < 5:
+	print("10 é menor do que 5!")
+elif 10 > 5:
 	print("10 é maior do que 5!")
 else:
-	print("10 não é maior do que 5!")
+	print("São iguais!")
 
