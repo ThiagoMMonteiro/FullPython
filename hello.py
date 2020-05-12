@@ -27,6 +27,8 @@ variavel = '47.55' #str
 print(type(variavel))
 variavel = True #bool
 print(type(variavel))
+variavel = [1,2,3] #list
+print(type(variavel))
 
 #Operadores Relacionais
 # == igual
@@ -56,3 +58,7 @@ x = 1
 while x < 10:
 	print (x)
 	x += 1
+# FOR
+lista = [10,11,12,13,14]
+for i in lista:
+	print (i)
