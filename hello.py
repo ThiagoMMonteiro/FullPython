@@ -50,3 +50,9 @@ elif 10 > 5:
 else:
 	print("São iguais!")
 
+#Estruturas de Repetição
+# WHILE
+x = 1
+while x < 10:
+	print (x)
+	x += 1
