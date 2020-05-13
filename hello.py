@@ -69,3 +69,40 @@ for i in range(10,15):
 	print(i)
 for i in range(10,15,2):
 	print(i)
+
+#Strings
+#Concatenação
+a = "Thiago"
+b = "M Monteiro"
+c = a + " " + b
+print(c)
+#Tamanho de uma string
+tamanho = len(a)
+print(tamanho)
+#Impressão
+print(a[0])
+print(a[0:3])
+print(a[3:])
+#Função lower (deixa tudo em minúsculo) e upper (deixa tudo em maiúsculo)
+a = "THIAGO"
+print(a) 
+print(a.lower())
+a = a.lower()
+print(a) 
+print(a.upper()) 
+#Função strip (remove espaços e caracteres especiais como quebra de linha (\n))
+var = "      conteudo\n"
+print(var)
+print(var.strip())
+#Função split (Separa a string e transforma em lista)
+var = "Thiago Mânica Monteiro"
+print(var)
+print(type(var))
+print(var.split()) #parâmetro default: " "
+print(type(var.split()))
+#Função find (busca de substrings)
+print(var.find("Monteiro")) #Retorna o índice da primeira ocorrência / -1 se não encontrar
+print(var.find("Monasterio"))
+#Função replace
+var = var.replace("Monteiro", "Monastério")
+print(var)
