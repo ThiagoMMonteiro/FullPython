@@ -113,3 +113,39 @@ def soma(x, y):
 s = soma(2, 3)
 print(s)
 
+#Manipulação de Arquivos
+"""
+#Função open
+
+variavel = open(nome, modo)
+
+#nome - nome do arquivo
+#modo - r: somente leitura (default)
+		w: escrita (caso o arquivo já exista, ele será apagado e um novo arquivo vazio será criado)
+		a: leitura e escrita (adiciona o novo conteúdo ao fim do arquivo)
+		r+: leitura e escrita
+		w+: escrita (o modo w+, assim como o w, também apaga o conteúdo anterior do arquivo)
+		a+: leitura e escrita (abre o arquivo para atualização)
+
+#Funções de leitura - read() - readline() - readlines()
+read() - lê o arquivo inteiro
+readline() - lê uma linha do arquivo
+readlines() - lê as linhas do arquivo e armazena em uma lista
+
+#Função de escrita - write()
+"""
+arquivo = open("arquivoteste.txt", "r")
+
+#conteudo = arquivo.read()
+#print(conteudo)
+
+linhas = arquivo.readlines()
+for linha in linhas:
+	print(linha)
+arquivo.close()
+
+#readline lê somente uma linha por vez - é o menos usado
+arquivo = open("arquivotestecriado.txt", "w")
+arquivo.write("Este arquivo foi criado pelo código\n")
+arquivo.close()
+
