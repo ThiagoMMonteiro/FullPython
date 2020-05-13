@@ -106,3 +106,10 @@ print(var.find("Monasterio"))
 #Função replace
 var = var.replace("Monteiro", "Monastério")
 print(var)
+
+#Funções
+def soma(x, y):
+	return x + y
+s = soma(2, 3)
+print(s)
+
