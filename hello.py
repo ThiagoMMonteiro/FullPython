@@ -62,3 +62,10 @@ while x < 10:
 lista = [10,11,12,13,14]
 for i in lista:
 	print (i)
+# FOR RANGE
+for i in range(5):
+	print(i)
+for i in range(10,15):
+	print(i)
+for i in range(10,15,2):
+	print(i)
