@@ -176,3 +176,26 @@ print(minha_lista)
 del minha_lista[:] #remove todos os itens da lista, deixando vazia
 print(minha_lista)
 
+#Como ordenar listas
+minha_lista = [9, 6, 5, 3, 7, 2, 1, 4, 8]
+minha_lista2 = ["c", "b", "d", "a", "f", "e"]
+print(minha_lista)
+print(minha_lista2)
+#Método sort - altera a lista original
+minha_lista.sort()
+minha_lista2.sort()
+print(minha_lista)
+print(minha_lista2)
+#Função sorted - retorna uma lista ordenada, não alterando a original
+minha_lista = [9, 6, 5, 3, 7, 2, 1, 4, 8]
+print(minha_lista)
+lista_ordenada = sorted(minha_lista)
+print(lista_ordenada)
+print(minha_lista)
+#Ordenar de forma decrescente
+minha_lista.sort(reverse=True)
+print(minha_lista)
+#Método reverse - inverte a lista 
+minha_lista.reverse()
+print(minha_lista)
+
