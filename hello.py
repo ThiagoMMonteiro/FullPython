@@ -27,7 +27,7 @@ variavel = '47.55' #str
 print(type(variavel))
 variavel = True #bool
 print(type(variavel))
-variavel = [1,2,3] #list
+variavel = [1, 2, 3, "abacaxi", 5.55, True] #list
 print(type(variavel))
 
 #Operadores Relacionais
@@ -148,4 +148,31 @@ arquivo.close()
 arquivo = open("arquivotestecriado.txt", "w")
 arquivo.write("Este arquivo foi criado pelo código\n")
 arquivo.close()
+
+#Listas e Dicionários
+#Listas
+minha_lista = [1, 2, 2.5, "abacaxi", True, False]
+minha_lista_vazia = []
+print(minha_lista)
+print(minha_lista_vazia)
+
+for item in minha_lista:
+	print(item)
+
+#Função len - tamanho da lista
+tamanho = len(minha_lista)
+print(tamanho)
+#Encontrar um elemento na lista
+if 2.5 in minha_lista:
+	print("Yes!")
+#Função append - insere elemento no final da lista
+minha_lista.append("limão")
+print(minha_lista)
+#Função del - remove elemento(s) da lista
+del minha_lista[0] #remove o item de índice 0
+print(minha_lista)
+del minha_lista[3:] #remove do índice 3 até o final
+print(minha_lista)
+del minha_lista[:] #remove todos os itens da lista, deixando vazia
+print(minha_lista)
 
