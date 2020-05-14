@@ -149,7 +149,6 @@ arquivo = open("arquivotestecriado.txt", "w")
 arquivo.write("Este arquivo foi criado pelo código\n")
 arquivo.close()
 
-#Listas e Dicionários
 #Listas
 minha_lista = [1, 2, 2.5, "abacaxi", True, False]
 minha_lista_vazia = []
@@ -198,4 +197,33 @@ print(minha_lista)
 #Método reverse - inverte a lista 
 minha_lista.reverse()
 print(minha_lista)
+
+#Dicionários
+"""
+Listas de associações compostas por:
+-uma chave
+-um valor correspondente
+dicionário = {'chave': 'valor'}
+"""
+dicionario = {"Thiago": "30", "Marcelo": "50", "Patrícia": "40"}
+print(dicionario)
+print(dicionario["Patrícia"])
+#Imprime as chaves
+for chave in dicionario:
+	print(chave)
+#Imprime os valores
+for chave in dicionario:
+	print(dicionario[chave])
+#Imprime de forma personalizada
+for chave in dicionario:
+	print(chave + " - " + dicionario[chave])
+#Função items() - converte cada par do dicionário em uma tupla
+for i in dicionario.items():
+	print(i)
+#Método values() - retorna apenas os valores
+for valor in dicionario.values():
+	print(valor)
+#Método keys() - retorna apenas as chaves
+for chave in dicionario.keys():
+	print(chave)
 
