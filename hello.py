@@ -227,3 +227,19 @@ for valor in dicionario.values():
 for chave in dicionario.keys():
 	print(chave)
 
+#Números aleatórios - Random
+import random #módulo/lib python que gera números aleatórios
+"""
+Método randint(&num_inicial, &num_final) - gera um número aleatório de um range escolhido
+num_inicial: Primeiro número possível aleatório
+num_final: Último número possível aleatório
+"""
+num = random.randint(0,10)
+print(num)
+
+"""
+Métudo choice(&lista) - Gera um número aleatório a partir de uma lista pré-definida
+"""
+minha_lista = [5, 7, 9, 13, 15]
+num = random.choice(minha_lista)
+print(num)
