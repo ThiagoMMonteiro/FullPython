@@ -282,5 +282,23 @@ numero_decimal = float(input("Digite um numero decimal: "))
 
 O Sublime Text não aceita o comando input(), e você receberá uma mensagem como "EOFError: EOF when reading a line". 
 Esse comando só funciona no terminal/cmd. Você pode inserir o valor diretamente na variável, caso use sublime text.
+Ou instalar este pacote, para funcionar no Sublime (siga este vídeo):
+https://www.youtube.com/watch?v=R5-niid0m8A
 """
+#Exercício 1 - Escreva um programa que recebe a idade de um usuário e diga se ele é menor ou maior de idade.
+idade = int(input("Digite a sua idade: "))
+if idade >= 18:
+	print("Você é MAIOR de idade!")
+else:
+	print("Voce é MENOR de idade!")
+#Exercício 2 - Faça um programa que receba duas notas digitadas pelo usuário. 
+#Se a nota for maior ou igual a seis, escreva aprovado, senão escreva reprovado. 
+nota1 = float(input("Digite a nota da primeira prova: "))
+nota2 = float(input("Digite a nota da segunda prova: "))
+nota_final = (nota1 + nota2)/2
+print(nota_final)
 
+if nota_final >= 6:
+	print("Aprovado!")
+else:
+	print("Reprovado!")
