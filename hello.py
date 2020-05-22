@@ -243,3 +243,12 @@ Métudo choice(&lista) - Gera um número aleatório a partir de uma lista pré-d
 minha_lista = [5, 7, 9, 13, 15]
 num = random.choice(minha_lista)
 print(num)
+
+#Tratamento de exceções
+a = 2
+b = 0
+try:
+	print(a/b)
+except:
+	print("Não é permitido divisão por 0!")
+print("Aqui continua a execução normalmente")
