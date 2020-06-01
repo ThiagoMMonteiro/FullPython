@@ -16,6 +16,7 @@ print (2 * 2) #multiplicação
 print (2 ** 3) #exponenciação
 print (3 % 2) #módulo - resto
 
+
 #Variáveis
 variavel = 47 #int
 print(type(variavel)) 
@@ -302,3 +303,25 @@ if nota_final >= 6:
 	print("Aprovado!")
 else:
 	print("Reprovado!")
+#Exercício 3 - Escreva um programa que resolva uma equação de segundo grau.
+
+"""
+-b +- (sqrt(b² - 4ac))/2a
+"""
+
+from math import sqrt
+
+a = int(input("Digite o valor de a: "))
+b = int(input("Digite o valor de b: "))
+c = int(input("Digite o valor de c: "))
+
+delta = b**2 - 4*a*c
+if delta < 0:
+	print("Delta negativo!")
+else:
+	raiz_delta = sqrt(delta)
+	x1 = (-b - raiz_delta)/2*a
+	x2 = (-b + raiz_delta)/2*a
+
+	print(x1)
+	print(x2)
