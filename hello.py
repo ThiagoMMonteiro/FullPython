@@ -375,3 +375,14 @@ print(dobro(lista_valores)) #duplica a lista
 valor_dobrado = map(dobro, lista_valores)
 valor_dobrado = list(valor_dobrado)
 print(valor_dobrado)
+
+#Função reduce
+from functools import reduce
+def soma(x,y):
+	return x+y
+
+lista = [10, 20, 30]
+
+soma = reduce(soma, lista)
+
+print(soma)
