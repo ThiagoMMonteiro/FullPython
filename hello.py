@@ -325,3 +325,8 @@ else:
 
 	print(x1)
 	print(x2)
+#Exercício 4 - Escreva um programa que ordene uma lista numérica com 3 elementos
+lista4 = [5, 3, 2]
+print(lista4)
+print(sorted(lista4))
+
