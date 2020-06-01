@@ -362,3 +362,16 @@ lista = ["abacate", "bola", "cachorro"]
 
 for i, nome in enumerate(lista):
 	print(i, nome)
+
+#Função map
+def dobro(x):
+	return x*2
+
+valor = 2
+print(dobro(valor))
+lista_valores = [1, 2, 3, 4, 5]
+print(dobro(lista_valores)) #duplica a lista
+
+valor_dobrado = map(dobro, lista_valores)
+valor_dobrado = list(valor_dobrado)
+print(valor_dobrado)
