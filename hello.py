@@ -330,3 +330,19 @@ lista4 = [5, 3, 2]
 print(lista4)
 print(sorted(lista4))
 
+#Exercício 5 - Escreva um programa que receba dois números e um sinal, e faça a operação definida pelo sinal
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+sinal = input("Digite o sinal da operação (+, -, /, *, **): ")
+
+if sinal == "+":
+	print(num1+num2)
+elif sinal == "-":
+	print(num1-num2)
+elif sinal == "/":
+	print(num1/num2)
+elif sinal == "*":
+	print(num1*num2)
+elif sinal == "**":
+	print(num1**num2)
