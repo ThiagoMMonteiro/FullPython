@@ -356,3 +356,9 @@ print(x)
 print(y)
 z = [i for i in x if i%2 == 1]
 print(z)
+
+#Função enumerate
+lista = ["abacate", "bola", "cachorro"]
+
+for i, nome in enumerate(lista):
+	print(i, nome)
